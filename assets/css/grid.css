@@ -3,7 +3,7 @@
 .container,
 .container-fluid {
   --column-size: 12;
-  --spacer: 40px;
+  /* --spacer: 40px; */
 
   width: 100%;
   margin-left: auto;
@@ -382,7 +382,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
-    --spacer: 30px;
     max-width: 960px;
   }
   .col-lg-1 {
@@ -609,7 +608,7 @@
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
@@ -720,4 +719,4 @@
   .g-xxl-0 {
     --spacer: 0;
   }
-}
+} */
