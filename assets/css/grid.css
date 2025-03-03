@@ -3,7 +3,7 @@
 .container,
 .container-fluid {
   --column-size: 12;
-  /* --spacer: 40px; */
+  /* --spacer: 30px; */
 
   width: 100%;
   margin-left: auto;
@@ -14,7 +14,7 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-left: calc(-1 * var(--spacer) / 2);
   margin-right: calc(-1 * var(--spacer) / 2);
 }
