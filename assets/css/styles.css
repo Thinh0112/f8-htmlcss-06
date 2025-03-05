@@ -336,3 +336,91 @@ a {
   background: #fff;
   color: #080415;
 }
+
+/* About Me */
+.about-me {
+  padding-top: 140px;
+}
+
+.about-me__introduction {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-me__intro {
+  margin-right: 9px;
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+  letter-spacing: -1.28px;
+}
+
+.about-me__heading {
+  text-align: center;
+}
+
+.about-me__desc {
+  margin: 15px auto 70px;
+  width: 570px;
+  text-align: center;
+}
+
+.statistics {
+  margin: 0 auto 70px;
+  padding: 20px 143px 20px 95px;
+  width: 946px;
+  border-top: 1px solid #08041533;
+  border-bottom: 1px solid #08041533;
+  display: flex;
+}
+
+.statistics .number {
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 1.68px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.statistics .detail {
+  color: #51586a;
+  font-size: 18px;
+  line-height: 1.66;
+}
+
+.statistics .mentor:first-child {
+  margin-right: 156px;
+}
+
+.statistics .mentor:last-child {
+  margin-left: 140px;
+}
+
+.about-me__media {
+  position: relative;
+}
+
+.about-me__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.about-me__btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  color: #51586a;
+  text-transform: uppercase;
+}
+
+.about-me__btn:hover {
+  opacity: 1;
+}
