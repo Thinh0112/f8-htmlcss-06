@@ -340,6 +340,7 @@ a {
 /* About Me */
 .about-me {
   padding-top: 140px;
+  position: relative;
 }
 
 .about-me__introduction {
@@ -401,7 +402,7 @@ a {
 }
 
 .about-me__media {
-  position: relative;
+  position: absolute;
 }
 
 .about-me__play {
@@ -427,10 +428,10 @@ a {
 
 /* Testimonial */
 .testimonial {
+  margin-top: 375px;
   padding: 473px 0 74px;
   background: #fbfaff;
   position: relative;
-  top: -323px;
   z-index: -1;
   text-align: center;
 }
@@ -497,4 +498,76 @@ a {
 
 .testimonial-decor-02 {
   right: 0;
+}
+
+/* FAQ */
+.faq {
+  padding: 95px 0 20px;
+  width: 1010px;
+}
+
+.faq__heading {
+  margin-bottom: 80px;
+  width: 575px;
+}
+
+.faq-item {
+  margin-top: 60px;
+  border-bottom: 2px solid #08182f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: border ease 0.5s;
+}
+
+.faq-item__question {
+  margin-bottom: 33px;
+  color: #080415;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -1.28px;
+  transition: color ease 0.5s;
+}
+
+.faq-item__answer {
+  margin: -10px 0 21px;
+  width: 487px;
+  display: none;
+  color: #51586a;
+  font-size: 1.8rem;
+  line-height: 1.66;
+}
+
+.faq-item:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+.faq-item:hover .faq-item__answer {
+  display: block;
+}
+
+.faq-item:hover .faq-item__question {
+  color: var(--primary-color);
+}
+
+/* Gallery */
+.gallery {
+  padding: 140px 0;
+  text-align: center;
+}
+
+.gallery__desc {
+  width: 528px;
+  margin: 20px auto 30px;
+}
+
+.gallery__email {
+  margin-bottom: 70px;
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -1.28px;
+  text-decoration-line: underline;
 }
