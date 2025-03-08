@@ -590,6 +590,11 @@ a {
   width: 570px;
 }
 
+.cta__btn {
+  position: relative;
+  z-index: 1;
+}
+
 .cta-decor-01,
 .cta-decor-02,
 .cta-decor-03 {
