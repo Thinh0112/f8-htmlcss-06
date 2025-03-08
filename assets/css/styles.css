@@ -76,13 +76,13 @@ a {
 }
 
 .info {
-  margin-right: 357px;
+  margin-right: 330px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.header__mail {
+.mail {
   color: #080415;
   font-size: 2.2rem;
   font-weight: 500;
@@ -570,4 +570,87 @@ a {
   line-height: 1.25;
   letter-spacing: -1.28px;
   text-decoration-line: underline;
+}
+
+/* CTA */
+.cta {
+  margin: 0 135px;
+  background: #fbfaff;
+}
+
+.cta-inner {
+  position: relative;
+  padding: 68px 0;
+  text-align: center;
+}
+
+.cta__desc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+}
+
+.cta-decor-01,
+.cta-decor-02,
+.cta-decor-03 {
+  position: absolute;
+}
+
+.cta-decor-01 {
+  left: -36px;
+  bottom: 0;
+}
+
+.cta-decor-02 {
+  top: 0;
+  left: 160px;
+}
+
+.cta-decor-03 {
+  top: 0;
+  right: -36px;
+}
+
+/* Footer */
+.footer {
+  margin: 50px 86px 30px;
+}
+
+.footer__navigation {
+  padding: 0 49px;
+}
+
+.copyright {
+  margin-top: 32px;
+  padding: 18px 147px 0 129px;
+  border-top: 1px solid #0c072033;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright__desc {
+  margin-top: 0;
+  color: #525771;
+  opacity: 0.6;
+}
+
+.copyright__right {
+  display: flex;
+  gap: 36px;
+}
+
+.copyright__right .copyright__desc:first-child {
+  position: relative;
+}
+
+.copyright__right .copyright__desc:first-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 14px;
+  background-color: #525771;
+  opacity: 0.6;
+  position: absolute;
+  top: 8px;
+  right: -23px;
 }
