@@ -120,6 +120,10 @@ a {
   text-decoration: underline;
 }
 
+.header-mobile {
+  display: none;
+}
+
 .hero {
   margin-top: 44px;
   display: flex;
@@ -269,6 +273,10 @@ a {
 .our-services__item-desc {
   margin-top: 15px;
   width: 285px;
+}
+
+.mobile-services-slide-btn {
+  display: none;
 }
 
 /* Works */

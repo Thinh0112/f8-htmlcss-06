@@ -17,6 +17,7 @@
   flex-wrap: nowrap;
   margin-left: calc(-1 * var(--spacer) / 2);
   margin-right: calc(-1 * var(--spacer) / 2);
+  overflow: hidden;
 }
 
 .col {
