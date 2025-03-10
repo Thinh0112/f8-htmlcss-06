@@ -303,6 +303,7 @@ a {
 }
 
 .works-item {
+  width: 570px !important;
   flex-shrink: initial !important;
   padding: 24px 23px 23px 34px !important;
   background: url(../img/works-bg.png) no-repeat;
@@ -506,6 +507,11 @@ a {
 
 .testimonial-decor-02 {
   right: 0;
+}
+
+.mobile-testimonial-decor-01,
+.mobile-testimonial-decor-02 {
+  display: none;
 }
 
 /* FAQ */
